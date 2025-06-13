@@ -47,6 +47,7 @@ function App() {
 		// Fetch accounts
 		const accounts = await window.ethereum.request({ method: 'eth_requestAccounts'})
 		const account = ethers.utils.getAddress(accounts[0])
+		console.log(account)
 		setAccount(account)
 
 		// Fetch account balance
@@ -65,7 +66,7 @@ function App() {
 		const tokensSold = ethers.utils.formatUnits(await crowdsale.tokensSold(), 18)
 		setTokensSold(tokensSold)
 
-		const crowdsaleStatus = await crowdsale.connect(signer).hasStarted()
+		const crowdsaleStatus = await crowdsale.hasStarted()
 		setHasStarted(crowdsaleStatus)
 
 		setIsLoading(false)
