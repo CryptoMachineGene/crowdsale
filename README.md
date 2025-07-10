@@ -6,17 +6,17 @@ Our project aims to raise funds for development and marketing through a crowdsal
 Token Details
 
 Tokens will be sold in exchange for investments
-Tokens can be traded on cryptocurrency exchanges, just testnets for the moment.  
+Tokens cannot be traded on cryptocurrency exchanges, just testnets for the moment.  
 Tokens represent a stake or value in our project 
 
 Crowdsale Process
 
 Preparation: Build a supportive community around our project through social media, forums, and crypto-social platforms.
-Token Sale: Sell tokens to investors or participants in exchange for investments;
+Token Sale: Sell tokens to investors or participants in exchange for investments.
 This involves a whitelist capability for early investors. 
 Token Distribution: Distribute tokens to participants after the crowdsale.
-This is a work in progress and subject to changes.  
+This is a work in progress and subject to change.  
 
 
-Important Notes
+Important Notes:
 Crowdsales involve risk, and there are no guarantees of success.
