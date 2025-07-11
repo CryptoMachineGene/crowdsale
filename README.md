@@ -11,7 +11,7 @@ Tokens represent a stake or value in our project
 
 Crowdsale Process
 
-Preparation: Build a supportive community around our project through social media, forums, and crypto-social platforms.
+ - Preparation: Build a supportive community around our project through social media, forums, and crypto-social platforms.
 Token Sale: Sell tokens to investors or participants in exchange for investments.
 This involves a whitelist capability for early investors. 
 Token Distribution: Distribute tokens to participants after the crowdsale.
