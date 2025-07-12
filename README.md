@@ -1,22 +1,55 @@
-Crowdsale Project README
+# 🪙 Crowdsale Smart Contract (Learning Project)
 
-Project Overview
-Our project aims to raise funds for development and marketing through a crowdsale, where we sell our tokens to a large number of investors and/or participants.
+## 🚀 Project Overview
 
-Token Details
+This project simulates a token crowdsale designed to raise funds for development and marketing. Participants purchase tokens during the crowdsale phase in exchange for crypto (on testnets only, for now). The contract suite includes whitelisting capabilities for early participants and aims to model common token sale mechanics.
 
- - Tokens will be sold in exchange for investments
- - Tokens cannot be traded on cryptocurrency exchanges, just testnets for the moment.  
- - Tokens represent a stake or value in our project 
+This is an active learning project built as part of my blockchain developer mentorship.
 
-Crowdsale Process
+---
 
- - Preparation: Build a supportive community around our project through social media, forums, and crypto-social platforms.
- - Token Sale: Sell tokens to investors or participants in exchange for investments.
- - This involves a whitelist capability for early investors. 
- - Token Distribution: Distribute tokens to participants after the crowdsale.
- - This is a work in progress and subject to change.  
+## 📦 Token Details
 
+- Tokens are distributed in exchange for user contributions (testnet ETH).
+- These tokens are **not tradable on live exchanges** — this is a testnet-only project.
+- Tokens represent a **stake or placeholder value** within the simulated ecosystem.
 
-Important Notes:
-Crowdsales involve risk, and there are no guarantees of success.
+---
+
+## 🔄 Crowdsale Flow
+
+1. **Preparation**  
+   Build community engagement across social media and crypto-focused platforms.
+
+2. **Token Sale**  
+   Accept investments from approved (whitelisted) participants.
+
+3. **Token Distribution**  
+   Distribute purchased tokens post-sale via contract logic.
+
+> ⚠️ *Token distribution is a work-in-progress and may change as the project evolves.*
+
+---
+
+## 🧪 Development Status
+
+- Contracts written in Solidity
+- Hardhat used for development and testing
+- Includes basic error handling and deployment scripts
+- Whitelisting is implemented
+- Timestamp features in progress
+
+---
+
+## 📚 Notes
+
+This project is for **educational purposes only**. Crowdsales carry risk in real-world scenarios, and this repo does **not** represent an audited or production-ready system. Always do your own research before participating in any token offering.
+
+---
+
+## 🛠️ Tech Stack
+
+- Solidity
+- Hardhat
+- JavaScript (scripts + optional frontend)
+- Hardhat Ignition (modular deployment)
