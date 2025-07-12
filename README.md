@@ -53,3 +53,42 @@ This project is for **educational purposes only**. Crowdsales carry risk in real
 - Hardhat
 - JavaScript (scripts + optional frontend)
 - Hardhat Ignition (modular deployment)
+
+---
+
+## 🧰 Getting Started
+
+### 1. Clone the Repo
+
+```bash```
+git clone https://github.com/your-username/crowdsale-project.git
+cd crowdsale-project
+
+### 2. Install Dependencies
+npm install
+
+### 3. Compile Contracts
+npx hardhat compile
+
+### 4. Run Tests
+npx hardhat test
+
+---
+
+🚀 Deployment (Local/Testnet)
+Option A: Local Network (for testing)
+npx hardhat node
+
+In a separate terminal:
+npx hardhat run scripts/deploy.js --network localhost
+
+
+Option B: Goerli or Sepolia Testnet (requires .env with private key + Alchemy/Infura)
+Create a .env file:
+
+```env```
+PRIVATE_KEY=your_private_key
+ALCHEMY_API_KEY=your_alchemy_or_infura_key
+
+Then run:
+npx hardhat run scripts/deploy.js --network sepolia
