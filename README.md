@@ -33,10 +33,10 @@ This project simulates a token crowdsale designed to raise funds for development
 
 ## 🧪 Development Status
 
-- ✅ Contracts written in Solidity
-- ✅ Hardhat used for local/testnet deployment & testing
-- ✅ Whitelist functionality implemented
-- ⏳ Timestamp and sale timing features in progress
+- ✅ Contracts written in Solidity  
+- ✅ Hardhat used for local/testnet deployment & testing  
+- ✅ Whitelist functionality implemented  
+- ⏳ Timestamp and sale timing features in progress  
 - ✅ Basic deployment script included (`deploy.js`)
 
 ---
