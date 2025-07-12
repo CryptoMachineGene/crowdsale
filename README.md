@@ -77,7 +77,7 @@ npx hardhat test
 
 🚀 Deployment (Local/Testnet)
 Option A: Local Network (for testing)
-npx hardhat node
+ - npx hardhat node
 
 In a separate terminal:
 npx hardhat run scripts/deploy.js --network localhost
@@ -90,5 +90,15 @@ Create a .env file:
 PRIVATE_KEY=your_private_key
 ALCHEMY_API_KEY=your_alchemy_or_infura_key
 
-Then run:
+Then run the deployment:
 npx hardhat run scripts/deploy.js --network sepolia
+
+---
+
+Whitelist note
+> ✅ **Whitelist Access**
+>
+> The crowdsale includes a built-in whitelist for early investor access.  
+> Only the contract owner can add addresses to the whitelist using the `addToWhitelist(address)` function in `Crowdsale.sol`.
+>
+> Currently, this must be done manually via the Hardhat console or by extending `scripts/deploy.js`. No external JSON or YAML files are required at this stage.
