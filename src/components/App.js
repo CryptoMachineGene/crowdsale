@@ -47,7 +47,6 @@ function App() {
 		// Fetch accounts
 		const accounts = await window.ethereum.request({ method: 'eth_requestAccounts'})
 		const account = ethers.utils.getAddress(accounts[0])
-		console.log(account)
 		setAccount(account)
 
 		// Fetch account balance
