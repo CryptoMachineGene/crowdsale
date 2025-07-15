@@ -1,5 +1,10 @@
 # 🪙 Crowdsale Smart Contract (Learning Project)
 
+![Solidity](https://img.shields.io/badge/Solidity-%5E0.8.0-blue.svg?logo=ethereum)
+![Hardhat](https://img.shields.io/badge/Hardhat-Development-yellow.svg?logo=hardhat)
+![License](https://img.shields.io/github/license/CryptoMachineGene/blockchainMentorship.svg)
+![Status](https://img.shields.io/badge/Status-In%20Progress-orange.svg)
+
 ## 🚀 Project Overview
 
 This project simulates a token crowdsale designed to raise funds for development and marketing. Participants purchase tokens during the crowdsale phase in exchange for crypto (on testnets only, for now). The contract suite includes whitelisting capabilities for early participants and models common token sale mechanics.
